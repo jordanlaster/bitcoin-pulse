@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Block Height",
+  "description": "Keeps track of Bitcoin's current block height. Think of it as a Bitcoin clock!",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Open"
+  },
+  "permissions": [
+    "scripting"
+  ]
+}
