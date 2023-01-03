@@ -30,8 +30,14 @@
   font-size: 13px;
   height: 32px;
   padding: 4px 4px 4px 30px;
-  transition: all 0.2s ease 0s;
+  /* transition: all 0.2s ease 0s; */
   width: 100%;
+}
+
+.Search-input:focus {
+  outline:none;
+  border-color:#ffbd59;
+  box-shadow:0 0 10px #ffbd59;
 }
 
 .Search-btn {
@@ -75,7 +81,7 @@
   height: 100px;
   width: 100px;
   color: white;
-  color: #00df9a;
+  color: #ffbd59;
   /* animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; */
 }
 
@@ -140,7 +146,7 @@
 
 .Title {
   align-items: center;
-  background: #00df9a;
+  background: #ffbd59;
   border-radius: 17px;
   color: rgb(32, 41, 69);
   display: flex;
@@ -166,8 +172,8 @@
 }
 
 .Bottom-btn {
-  background: #00df9a;
-  border: 1px solid #00df9a;
+  background: #ffbd59;
+  border: 1px solid #ffbd59;
   border-radius: 4px;
   color: black;
   cursor: pointer;
@@ -180,8 +186,8 @@
 }
 
 .Bottom-btn:hover {
-  background-color: #00bd81;
-  border: 2px solid #00bd81;
+  background-color: #d29300;
+  border: 2px solid #d29300;
 }
 
 .Attribution {
@@ -209,7 +215,7 @@ a {
 }
 
 a:hover {
-  color: #00df9a;
+  color: #ffbd59;
 }
 
 .Footer-item {
@@ -230,5 +236,5 @@ a:hover {
   position: relative;
   top: 1px;
   right: 6px;
-  color: #02c185;;
+  color: #ffbd59;
 }

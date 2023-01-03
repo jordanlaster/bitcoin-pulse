@@ -12,7 +12,6 @@
     "default_popup": "popup.html",
     "default_title": "Open"
   },
-  "default_locale": "en",
   "permissions": [
     "scripting"
   ]
