@@ -18,6 +18,13 @@ Stats:
 Animation:
 - Block icon should look like it's filling with transactions
 
+## Run this yourself
+1. Git clone, download a zip file, or fork the code
+2. Install necessary package dependencies (npm install)
+3. Go to chrome://extensions/ and toggle Developer mode on
+4. Click Load unpacked and select the build file
+5. Voila! You now have the chrome extension locally
+
 ## How to Create a Chrome Extension With React
 [Getting Started with React Chrome Extensions Manifest V3](https://www.youtube.com/watch?v=IV-CgmgJDBo)
 
