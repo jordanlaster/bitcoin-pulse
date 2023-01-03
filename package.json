@@ -1,5 +1,5 @@
 {
-  "name": "bitcoin-block-height",
+  "name": "bitcoin-pulse-check",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

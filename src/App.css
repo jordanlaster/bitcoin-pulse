@@ -1,22 +1,234 @@
 .App {
-  text-align: center;
+  min-width: 360px;
+  min-height: 450px;
+  color: rgb(32, 41, 69);
+  font-family: Inter, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header {
+  align-items: center;
+  background: rgb(251, 251, 253);
+  border-bottom: 1px solid rgb(235, 236, 247);
+  display: flex;
+  padding: 4px 12px;
+  height: 32px;
+}
+
+.Search {
+  align-items: center;
+  display: flex;
+  position: relative;
+  transition: all 0.2s ease 0s;
+  width: 150px;
+  width: 100%;
+}
+
+.Search-input {
+  border: 1px solid rgb(235, 236, 247);
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-size: 13px;
+  height: 32px;
+  padding: 4px 4px 4px 30px;
+  transition: all 0.2s ease 0s;
+  width: 100%;
+}
+
+.Search-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 32px;
+}
+
+.Search-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.Top-panel {
+  align-items: center;
+  display: flex;
+  height: 120px;
+  padding: 12px;
+  position: relative;
+  border-bottom: 1px solid rgb(235, 236, 247);
+}
+
+/* @keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+} */
+
+.Block-icon {
+  flex-shrink: 0;
+  margin-right: 12px;
+  /* opacity: 1;
+  transition: opacity 0.4s ease 0s; */
+  height: 100px;
+  width: 100px;
+  color: white;
+  color: #00df9a;
+  /* animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; */
+}
+
+.Block-summary {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  padding: 4px 0px;
+}
+
+.Block-title {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.Block-height {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Block-description {
+  color: rgb(127, 134, 159);
+  font-size: 15px;
+}
+
+.Bottom-panel {
+  height: 232px;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+.Inner-container {
+  background: rgb(251, 251, 253);
+  border: 1px solid rgb(235, 236, 247);
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 210px;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.Data-display {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(235, 236, 247);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 87px;
+  padding: 24px 16px;
+  position: relative;
+  width: 106px;
+  margin-top: 11px;
+  padding-bottom: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.Title {
+  align-items: center;
+  background: #00df9a;
+  border-radius: 17px;
+  color: rgb(32, 41, 69);
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  height: 22px;
+  line-height: 1;
+  padding: 0px 12px;
+  position: absolute;
+  top: -11px;
+  transition: all 0.4s ease 0s;
+  white-space: nowrap;
 }
 
-.Block {
+.Stats {
   font-size: 40px;
+  font-weight: 700;
+}
+
+.Subtitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Bottom-btn {
+  background: #00df9a;
+  border: 1px solid #00df9a;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 100;
+  height: 38px;
+  margin-top: auto;
+  transition: all 0.4s ease 0s;
+  width: 100%;
+}
+
+.Bottom-btn:hover {
+  background-color: #00bd81;
+  border: 2px solid #00bd81;
+}
+
+.Attribution {
+  margin: auto;
+  padding-top: 8px;
+}
+
+.Footer {
+  align-items: center;
+  border-top: 1px solid rgb(222, 224, 247);
+  display: flex;
+  filter: drop-shadow(rgba(0, 0, 0, 0.05) 0px -3px 8px);
+  height: 18px;
+  padding: 11px 0px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgb(249, 249, 249);
+}
+
+a {
+  color: rgb(32, 41, 69);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00df9a;
+}
+
+.Footer-item {
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1;
+  padding: 0px;
+  width: calc(33.3333%);
+  border-right: 2px solid rgb(235, 236, 247);
+}
+
+.Footer-icon {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  top: 1px;
+  right: 6px;
+  color: #02c185;;
 }

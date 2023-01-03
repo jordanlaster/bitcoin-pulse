@@ -1,10 +1,6 @@
 # To Do
-- add tailwind css
-- style block height
-- cache block height and update cache if new block height exists
-- move extension to upper right (like other extensions I have)
-- add exit button in top right of extension
-- make styling responsive (like block font)
+- Add block fill animation
+- clean up readme
 
 Bonus 
 - add how far it is from the halving
@@ -30,6 +26,9 @@ After the Hot Reload youtube tutorial, you can run `npm run dev` to reload your 
 - I'm fetching data from [Blockstream's](https://blockstream.info/) public Bitcoin api
 - I'm using the Bitcoin endpoint -> https://blockstream.info/api/) in [this repo](https://github.com/Blockstream/esplora/blob/master/API.md)
 - It's a simple GET request to https://blockstream.info/api//blocks/tip/height
+
+## Design
+- I really like the simplicity and cleanliness of startpage.com's chrome extension so I used it as inspiration
 
 # Getting Started with Create React App
 
