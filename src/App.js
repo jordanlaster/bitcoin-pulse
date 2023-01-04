@@ -46,7 +46,7 @@ const App = () => {
           id="block-height-form"
           className='Search'
           onSubmit={() => {
-            window.open(blockStreamUrl, '_blank');
+            window.open(blockStreamUrl, '_blank', 'noopener,noreferrer');
           }}
         >
           <input 
@@ -92,7 +92,7 @@ const App = () => {
             className='Bottom-btn'
             type='button'
             onClick={() => {
-              window.open('https://bitcoin.clarkmoody.com/dashboard/', '_blank');
+              window.open('https://bitcoin.clarkmoody.com/dashboard/', '_blank', 'noopener,noreferrer');
             }}
           >
             View more awesome stats!
