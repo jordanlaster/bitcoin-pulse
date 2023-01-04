@@ -1,4 +1,4 @@
-# Bitcoin Pulse Check Chrome Extension
+# Bitcoin Pulse Chrome Extension
 Take Bitcoin's pulse. Get the block height, sats per dollar, dollars per bitcoin, and more interesting stats.
 
 ## Inspiration
