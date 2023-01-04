@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Bitcoin Pulse Check",
+  "name": "Bitcoin Pulse",
   "description": "Take Bitcoin's pulse. Get the block height, sats per dollar, dollars per bitcoin, and more interesting stats",
   "version": "1.0.1",
   "icons": {
