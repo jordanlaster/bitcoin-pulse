@@ -12,7 +12,7 @@ const App = () => {
 
   const blockHeightUrl = "https://blockstream.info/api//blocks/tip/height";
   const priceUrl = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd";
-  let blockStreamUrl = `https://blockstream.info/block-height/${blockInput}?q=${blockInput}`
+  let blockStreamUrl = `https://mempool.space/block/${blockInput}`
 
   const fetchBlockHeight = async () => {
     try {
@@ -111,7 +111,7 @@ const App = () => {
       <div className='Footer'>
         <a
           className='Footer-item'
-          href='https://buddylasta.com/#donate'
+          href='https://strike.me/buddylasta'
           target='_blank'
           rel="noreferrer"
         >
