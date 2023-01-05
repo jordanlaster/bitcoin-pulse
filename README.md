@@ -1,7 +1,8 @@
 # Bitcoin Pulse Chrome Extension
 Take Bitcoin's pulse. Get the block height, sats per dollar, dollars per bitcoin, and more interesting stats.
 
-Found in [Chrome Web Store](https://chrome.google.com/webstore/detail/bitcoin-pulse/pcefcmolpliemgglckgihkaalajediol)
+## Download
+You can download this extension in the [Chrome Web Store](https://chrome.google.com/webstore/detail/bitcoin-pulse/pcefcmolpliemgglckgihkaalajediol)
 
 ## Inspiration
 - I really like the look of startpage.com's chrome extension so I used it as inspiration for this one.
