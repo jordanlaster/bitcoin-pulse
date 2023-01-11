@@ -14,12 +14,16 @@ I used [Blockstream.info's API](https://github.com/Blockstream/esplora/blob/mast
   - Note: it has a rate limit of 10-50 calls/minute, and doesn't require API key
 
 ## Would like to add
+Firefox:
+- make it available as an add-on 
+- look at the [firefox docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions)
+
 Stats:
 - how many blocks till halving?
 - how many blocks till difficulty adjustment?
 
 Animation:
-- Block icon should look like it's filling with transactions
+- block icon should look like it's filling with transactions
 
 ## Run this yourself
 1. Git clone, download a zip file, or fork the code
